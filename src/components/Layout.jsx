@@ -32,6 +32,19 @@ const Layout = () => {
   };
 
   // DElete functıon
+
+  // Complated Funct
+  const handleComplated = (id) => {
+    const updateData = data.map((todo) => {
+      if (todo.id === id) {
+        return { ...todo, complated: !todo.complated };
+      }
+      return todo;
+    });
+    setData(updateData);
+  };
+
+  // ccccc
   return (
     <div className="mt-[2.5rem] w-[40rem] bg-pink-500 pb-10">
       <Header active={isActive} setActive={setIsActive} />
@@ -44,7 +57,11 @@ const Layout = () => {
         <div className="max-h-[25rem] overflow-y-auto">
           {data.map((item, idx) => (
             <div key={idx}>
-              <Task data={item} handleRemove={handleRemove} />
+              <Task
+                data={item}
+                handleRemove={handleRemove}
+                handleComplated={handleComplated}
+              />
             </div>
           ))}
         </div>
