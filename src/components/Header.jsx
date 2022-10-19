@@ -1,10 +1,17 @@
 import React from "react";
 
-
-const Header = () => {
+const Header = ({ active, setActive }) => {
   return (
-    <div>
-      <h1>masmdma</h1>
+    <div className="flex flex-col text-center py-5">
+      <div className="text-4xl font-bold">Task Tracker</div>
+      <div
+        className={`w-[10rem] py-[.6rem] mx-auto mt-5 cursor-pointer ${
+          active ? "bg-red-700" : "bg-orange-500"
+        }`}
+        onClick={() => setActive(!active)}
+      >
+        <button>{active ? "Close Add Task Bar" : "Show Add Task Bar"} </button>
+      </div>
     </div>
   );
 };
