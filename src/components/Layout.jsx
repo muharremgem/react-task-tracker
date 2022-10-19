@@ -21,11 +21,11 @@ const Layout = () => {
           <AddTask />
         </div>
       )}
-      {Data.map((item, idx) => {
+      {Data.map((item, idx) => (
         <div key={idx}>
           <Task />
-        </div>;
-      })}
+        </div>
+      ))}
     </div>
   );
 };

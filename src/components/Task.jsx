@@ -2,8 +2,8 @@ import React from "react";
 
 const Task = () => {
   return (
-    <div>
-      <h1>asd</h1>
+    <div className="w-[30rem] mx-auto py-3">
+      <div>task</div>
     </div>
   );
 };
