@@ -1,10 +1,9 @@
-
-
+import { Layout } from "./components";
 
 function App() {
   return (
-    <div className="App">
-      <h1>asdasda</h1>
+    <div className="w-full min-h-screen flex justify-center items-start bg-orange-100">
+      <Layout />
     </div>
   );
 }

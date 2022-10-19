@@ -1,12 +1,13 @@
 import React from "react";
 
 
-const Header = () => {
+const AddTask = () => {
+
   return (
     <div>
-      <h1>masmdma</h1>
+     
     </div>
   );
 };
 
-export default Header;
+export default AddTask;
