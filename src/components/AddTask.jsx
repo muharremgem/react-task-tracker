@@ -29,11 +29,11 @@ const AddTask = ({ handleSubmit }) => {
             <option value="0" disabled hidden>
               Select Date & Time
             </option>
-            <option value="Dec 12th at 2.30PM">Dec 12th at 2.30PM</option>
-            <option value="Dec 12th at 2.30PM">Dec 12th at 2.30PM</option>
-            <option value="Dec 12th at 2.30PM">Dec 12th at 2.30PM</option>
-            <option value="Dec 12th at 2.30PM">Dec 12th at 2.30PM</option>
-            <option value="Dec 12th at 2.30PM">Dec 12th at 2.30PM</option>
+            <option value="Dec 12th at 2.30PM">Dec 13th at 2.30PM</option>
+            <option value="Dec 13th at 4.30PM">Dec 14th at 4.30PM</option>
+            <option value="Dec 14th at 6.30PM">Dec 15th at 6.30PM</option>
+            <option value="Dec 15th at 8.30PM">Dec 16th at 8.30PM</option>
+            <option value="Dec 16th at 10.30PM">Dec 17th at 10.30PM</option>
           </select>
         </div>
         <button className="bg-[#F4D366] py-2 rounded-lg text-[#FF6347] w-full hover:scale-90">
