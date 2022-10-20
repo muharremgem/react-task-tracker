@@ -6,7 +6,7 @@ const Header = ({ active, setActive }) => {
       <div className="text-4xl font-bold">Task Tracker</div>
       <div
         className={`w-[10rem] py-[.6rem] mx-auto mt-5 cursor-pointer ${
-          active ? "bg-red-700" : "bg-orange-500"
+          active ? " bg-[#F4D366]" : " bg-green-600"
         }`}
         onClick={() => setActive(!active)}
       >

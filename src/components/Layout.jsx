@@ -46,7 +46,7 @@ const Layout = () => {
 
   // ccccc
   return (
-    <div className="mt-[2.5rem] w-[40rem] bg-pink-500 pb-10">
+    <div className="mt-[2.5rem] w-[40rem] bg-[#FF6347] pb-10">
       <Header active={isActive} setActive={setIsActive} />
       {isActive && (
         <div className="w-[30rem] mx-auto">
@@ -66,7 +66,7 @@ const Layout = () => {
           ))}
         </div>
       ) : (
-        <p className="text-center text-xl font-semibold">No Task Yet</p>
+        <p className="text-center text-xl font-semibold mt-3">No Task Yet</p>
       )}
     </div>
   );
