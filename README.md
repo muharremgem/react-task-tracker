@@ -1,6 +1,32 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  Project Name       |Libraries and Technologies I use     |How does my project look   
+:-------------------------|-------------------------|-------------------------
+[Random_user_app](https://react-random-user-app.vercel.app/)| Js React | ![Random_user_app](userApp.gif)
+
+
+
+I used;
+
+Components
+
+useState
+
+useEffect
+
+axios
+
+import/export
+
+Props
+
+React Developer Tool
+
+Destructuring props
+
+array map method
+
+array some method
 
 ## Available Scripts
 
